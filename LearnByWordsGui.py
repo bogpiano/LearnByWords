@@ -50,8 +50,6 @@ class MainWindow(qtw.QWidget):
         self.container.setStyleSheet(BKG_COLOR_GRAY2)
         self.startTestWindow(self.container)
 
-    # dynamically create controls
-
     def startTest(self, container):
         self.cmb_languages.deleteLater()
         self.btn_level.deleteLater()
